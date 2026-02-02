@@ -1,6 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import rover from '../../assets/rover.png';
 import drone from '../../assets/drone.jpg';
+import fintech from '../../assets/fintech.png';
 import ProjectCard from '../../common/ProjectCard';
 
 function Projects() {
@@ -15,9 +16,15 @@ function Projects() {
                          />
 
             <ProjectCard src={drone} 
-                         link='https://github.com/Capstone-Rover/beast_final' 
+                         link='https://github.com/flying-robot-league/blackkite_ws' 
                          h3="RMIT Maritime Drone"
                          p="As part of the RMIT UAS Research Team"
+                         />
+
+            <ProjectCard src={fintech} 
+                         link='https://www.rmitfintechclub.com/' 
+                         h3="RMIT Fintech Club Website"
+                         p="3rd Gen Project Manager and maintainer"
                          />
         </div>
     </section>
